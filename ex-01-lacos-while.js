@@ -183,7 +183,7 @@ de 1 até 50 (incluindo 50). Armazene o resultado da soma na variável resposta0
 */
 // Escreva o código da solução abaixo:
 
-export const resposta02 = false
+export const resposta02 
 
 /* Questão 03
 Crie um laço de repetição while que conte quantos números negativos existem no
