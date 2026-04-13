@@ -313,18 +313,12 @@ while (i5 < nomes.length)  {
   let primeiraLetra = nomes[i5][0];
   if (primeiraLetra === "A" || primeiraLetra === "E" || primeiraLetra === "I" || primeiraLetra === "O" 
     || primeiraLetra === "U" || primeiraLetra === "Á" || primeiraLetra === "É" || primeiraLetra === "Í" 
-    || primeiraLetra === "Ó" || primeiraLetra === "Ú")    { 
+    || primeiraLetra === "Ó" || primeiraLetra === "Ú")  { 
 
-vogais[vogais.length] = nomes[i5];
-
-    }
-i5 ++
+    vogais[vogais.length] = nomes[i5];
+  }
+  i5 ++
  }
-
-// Forma mais simples usando includes:
-// if ("AEIOUÁÉÍÓÚ".includes(primeiraLetra)) {
-//   vogais[vogais.length] = nomes[i5];
-// }
 
 export const resposta09 = vogais;
 
@@ -344,7 +338,8 @@ while (i6 < nomes.length) {
   if (nomes[i6].length > maiorNome.length) {
     maiorNome = nomes[i6]; // se for maior, substitui
   }
+  i6++;
 }
-i6++;
+
 
 export const resposta10 = maiorNome;
